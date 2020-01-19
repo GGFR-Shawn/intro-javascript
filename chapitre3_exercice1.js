@@ -52,3 +52,24 @@ if (jourActuel === "lundi") {
 if (jourSuivant !== "") {
   console.log(`Demain, nous serons ${jourSuivant}`);
 }
+/*MA PROPOSITION
+const jourActuel = "Lundi";
+let jourSuivant = "";
+let jourSemaine = ['lundi','mardi', 'mercredi','jeudi','vendredi','samedi','dimanche'];
+    for(let pas = 0; pas<jourSemaine.length; pas++ )
+        {
+            if(jourActuel === jourSemaine[pas] && jourActuel !==jourSemaine[jourSemaine.length-1])
+            {
+                jourSuivant = jourSemaine[pas+1];
+            }
+            else if(jourActuel === jourSemaine[pas] && jourActuel === jourSemaine[jourSemaine.length-1])
+            {
+                jourSuivant = jourSemaine[0];
+            }
+            else
+            {
+                jourSuivant = "jour inconnu";
+            }   
+            
+        }
+    console.log(`Demain, nous serons ${jourSuivant}`); */
